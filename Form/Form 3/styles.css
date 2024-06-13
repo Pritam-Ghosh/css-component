@@ -9,6 +9,71 @@ html,body{
     display: grid;
     height: 100%;
     place-items: center;
+<<<<<<< HEAD
+    background-color: antiquewhite;
+}
+
+.wrapper{
+ width: 380px;
+ background-color: #fff;
+ border-radius: 5px;   
+}
+
+.title{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.form .f{
+    display: grid;
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    border: 1px solid gainsboro;
+    padding-left: 20px;
+}
+.form a{
+    text-decoration: none;
+    color: blueviolet;
+}
+label{
+font-size: 15px;
+}
+
+.button{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    margin: 20px 0  20px 0;
+    transition: 0.3s all ease-in-out;
+}
+.button:hover{
+    background-color: rgb(103, 23, 142);
+    transform: translateY(-1px);
+}
+.signup-link{
+    text-align: center;
+    margin: 0 0 20px 0;
+=======
     background-color: #1abc9c;
 }
 
@@ -90,4 +155,5 @@ input{
     color: #16a085;
     text-decoration: none;
     font-size: 17px;
+>>>>>>> origin/main
 }
