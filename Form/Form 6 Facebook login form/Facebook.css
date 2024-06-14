@@ -13,19 +13,31 @@ html,body{
 }
 
 .wrapper{
+    display: flex;
+    align-items: center;
+
+}
+.wrapper .logo{
+    font-size: 24px;
+    margin-right: 50px;
+}
+.wrapper .logo h1{
+ color: #1877F2;
+}
+.wrapper .logo p{
+    width: 400px;
+}
+.wrapper form{
     width: 380px;
     background: #fff;
     border-radius: 8px;
-}
-
-.wrapper form{
-    padding: 10px 30px 50px 30px;
+    padding: 10px 15px 0px 15px;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
 .wrapper form .field{
     position: relative;
-    height: 60px;
+    height: 50px;
     width: 100%;
     margin-top: 20px;
 }
@@ -73,8 +85,8 @@ html,body{
 
 .wrapper .pass-link2 input[type="submit"]{
     background-color: #22b525;
-    height: 60px;
-    width: 200px;
+    height: 50px;
+    width: 210px;
     border: none;
     border-radius: 8px;
 }
@@ -84,7 +96,16 @@ hr{
 }
 .wrapper .pass-link2 input{
     text-decoration: none;
-    font-weight: bold;
     font-size: 16px;
     color: #fff;
+}
+
+@media(max-width: 900px)  {
+    .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
 }
