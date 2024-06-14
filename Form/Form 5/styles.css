@@ -78,3 +78,37 @@ pointer-events: none;
 color: #4158d0;
 background: #fff;
 }
+
+.wrapper form .pass-link{
+
+margin: 8px 0 0 10px;
+}
+
+.wrapper form .field input[type="Submit"]{
+    color: #fff;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    padding-left: 0;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.wrapper form .field input[type="Submit"]:active{
+    transform: scale(0.95);
+}
+
+.wrapper form .signup-link{
+ text-align: center;
+ margin: 20px;
+}
+.wrapper form .pass-link a,
+.wrapper form .signup-link a{
+text-decoration: none;
+color: #4158d0;
+}
+
+.wrapper form .pass-link a:hover,
+.wrapper form .signup-link a:hover{
+    text-decoration: underline;
+}
