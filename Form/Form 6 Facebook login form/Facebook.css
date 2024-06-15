@@ -58,6 +58,14 @@ html,body{
     left: 20px;
     color: darkgrey;
 }
+
+.wrapper form .field input:focus ~ label,
+.wrapper form .field input:valid ~ label{
+     top: 0%;
+     transform: translateY(-50%);
+     color: #1877F2;
+     background-color: #fff;
+}
 .wrapper form .field input[type="submit"]{
     padding-left: 0;
     color: #fff;
@@ -109,3 +117,5 @@ hr{
         margin-bottom: 20px;
     }
 }
+
+ 
